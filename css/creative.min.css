@@ -202,6 +202,7 @@
 .project-page{color: solid 2px #000}
  .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{color: #fff;background-color: transparent;border-color: transparent;}
 }
+ .heading-page{color: #000 !important; font-family: "abril fatface" !important;}
 
 .contact-links a{color: #fff !important}
 
