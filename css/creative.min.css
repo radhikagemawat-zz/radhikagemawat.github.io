@@ -77,9 +77,12 @@
 
  section {background: linear-gradient(to left, #F9F9F9 50%, #F6A623 50%); border-bottom: solid 30px #fff;border-left: solid 30px #fff;border-right: solid 30px #fff}
 
- @media (max-width: 768px){header {background: linear-gradient( to top, #F6A623 50%, #F9F9F9 50%);} section {background: linear-gradient( to bottom, #F6A623 50%, #F9F9F9 50%);} .text-footer{margin-top: 20%; margin-bottom: -20%} .footer-text{margin-top: -20%; margin-bottom: 20%} .header-image{margin-left: 40px}}
+ @media (max-width: 768px){header {background: linear-gradient( to top, #F6A623 50%, #F9F9F9 50%);} section {background: linear-gradient( to bottom, #F6A623 50%, #F9F9F9 50%);} .text-footer{margin-top: 20%; margin-bottom: -20%} .footer-text{margin-top: -20%; margin-bottom: 20%} .header-image{margin-left: 40px} .header-logo{visibility: collapse !important}}
 
+ @media (max-width: 768px){nav {visibility: hidden !important;}}
  .intro{margin-left: 0px; margin-top: 10%}
+
+ @media (max-width: 768px){header .header-content{padding:50px 15px !important}}
 
  .name{font-family: 'Abril Fatface'; font-size: 48px !important; color: #fff !important;}
 
